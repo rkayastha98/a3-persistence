@@ -39,7 +39,7 @@ Deliverables
 
 Do the following to complete this assignment:
 
-1. Implement your project with the above requirements. A good potential starting point is to use the "hello-express" project template inside of Glitch; this appears as an option when you hit the "New Project" button. Use the work you did in the last assignment as a reference to implement functionality, as well as the notes from class on 9/9 and 9/12.
+1. Implement your project with the above requirements. A good potential starting point is to use the "hello-express" project template inside of Glitch; this appears as an option when you hit the "New Project" button. Use the work you did in the last assignment as a reference to implement functionality.
 2. If you developed your project locally, deploy your project to Glitch (unless completing the alternative server technical acheivement described below), and fill in the appropriate fields in your package.json file.
 3. Test your project to make sure that when someone goes to your main page on Glitch, it displays correctly.
 4. Ensure that your project has the proper naming scheme `a3-yourfirstname-yourlastname` so we can find it.
