@@ -1,0 +1,147 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.sidenav-trigger {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+.parallax-container .section {
+  width: 100%;
+}
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+h1{
+  color: darkcyan;
+  text-align: center;
+}
+
+#Out_btn{
+  float: right;
+  margin: 5px;
+}
+
+button{
+  margin: 5px;
+  padding: 5px;
+}
+
+#list_div{
+  width: 25vw;
+  height: 70vh;
+  float: left;
+  position: absolute;
+  border: solid 2px;
+  grid-area: menu;
+}
+
+#item_grid{
+  height: 70vh;
+  overflow-y: auto;
+  border: solid 2px;
+  float: right;
+  width: 70vw;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+
+#list_submit{
+  float: right;
+  border: solid 2px;
+  width: 70%;
+}
+
+#form_content{
+  float: right;
+}
+
+#outer_container{
+  margin: 10px;
+  float: right;
+  width: 70%;
+  overflow-y: auto;
+  grid-area: main;
+}
+
+.grid_item{
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  background-color: darkcyan;
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  width: 300px;
+  height: 300px;
+}
+
+#login_box{
+  margin: 0 auto;
+}
+
+.grid{
+  bottom: 0;
+  left: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.images{
+  width: 230px;
+  height: 230px;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  margin-left: auto;
+margin-right: auto;
+}
+
+header{
+  grid-area: header;
+}
+
+footer{
+  grid-area: footer;
+}
