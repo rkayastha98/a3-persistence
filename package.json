@@ -7,6 +7,7 @@
     "express": ">= 0.0.0",
     "express-partials": "^0.3.0",
     "express-session": "^1.11.3",
+    "https-live-reload": "^0.1.0",
     "method-override": "^2.3.5",
     "passport": ">= 0.0.0",
     "passport-github2": ">= 0.0.0",
