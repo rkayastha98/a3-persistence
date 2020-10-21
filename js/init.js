@@ -32,3 +32,9 @@ function exit() {
   localStorage.clear();
   window.location.href = '/login.html';
 }
+
+$(document).ready(function () {
+  if(!local_access_token){
+    window.location.href = '/a3-persistence/login.html';
+  }
+})
