@@ -34,7 +34,7 @@ function exit() {
 }
 
 $(document).ready(function () {
-  if(!local_access_token){
+  if(!access_token){
     window.location.href = '/a3-persistence/login.html';
   }
 })
