@@ -30,7 +30,7 @@
 
 function exit() {
   localStorage.clear();
-  window.location.href = '/login.html';
+  window.location.href = '/a3-persistence/login.html';
 }
 
 $(document).ready(function () {
