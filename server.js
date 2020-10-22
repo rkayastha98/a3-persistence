@@ -11,7 +11,7 @@ app.use(function (req,res,next) {
 app.use(express.static("./"));
 
 app.get("/", (request, response) => {
-    response.sendFile(__dirname + "/login.html");
+    response.sendFile(__dirname + "/a3-persistence/login.html");
 });
 
 app.get("/lists", (request, response) => {
