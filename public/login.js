@@ -49,12 +49,12 @@ $(document).ready(function(){
     let access_token = searchParams.get('code');
     if(access_token){
         localStorage.setItem('access_token', access_token);
-        window.location.href = '/a3-persistence/index.html';
+        window.location.href = '../index.html';
     }
 
     //checking if access token exists
     let local_access_token = localStorage.getItem('access_token');
     if(local_access_token){
-        window.location.href = '/a3-persistence/index.html';
+        window.location.href = '../index.html';
     }
 })
