@@ -1,8 +1,6 @@
 const express = require("express");
 const app = express();
 
-const lists=[]
-
 app.use(function (req,res,next) {
     console.log(req.url)
     next()
